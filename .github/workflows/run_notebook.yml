@@ -25,4 +25,4 @@ jobs:
 
      - name: Run Notebook with Papermill
         run: |
-          papermill "Inv X L30 sales.ipynb" "output_notebook.ipynb"
+          papermill "Inv_X_L30_sales.ipynb" "output_notebook.ipynb"
