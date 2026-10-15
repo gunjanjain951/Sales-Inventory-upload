@@ -23,6 +23,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install papermill jupyter pandas gspread oauth2client
 
-      - name: Run Notebook with Papermill
+     - name: Run Notebook with Papermill
         run: |
           papermill "Inv X L30 sales.ipynb" "output_notebook.ipynb"
